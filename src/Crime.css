@@ -1,0 +1,253 @@
+/* CrimeEntryForm.css
+
+.crime-entry-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.crime-entry-form {
+  width: 100%;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.crime-entry-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+button[type="button"] {
+  background-color: #007bff;
+  margin-top: 10px;
+}
+
+button[type="button"]:hover {
+  background-color: #0069d9;
+}
+
+.crime-entry-list {
+  width: 100%;
+}
+
+.crime-entry-list h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.crime-entry-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.crime-entry-list li {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.crime-entry-list li:hover {
+  background-color: #f1f1f1;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+} */
+
+
+
+
+
+/* Crime.css */
+
+
+
+
+/* Crime.css */
+/* .container {
+  width: 100%;
+  max-width: 1800px;
+  height: 2500px;
+  background-image: url('./assets/backs.png'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #1c0563; 
+} */
+
+.crime-entry-container {
+  background-image: url('./assets/backs.png'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);  
+  border-radius: 15px;
+}
+
+.crime-entry-form {
+  width: 100%;
+  /* background: #f9f9f9; */
+  /* border: 1px solid #ddd; */
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.crime-entry-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: serif;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #8B0000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #a01c1c;
+}
+
+.crime-entry-list {
+  width: 100%;
+}
+
+.crime-entry-list h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.crime-entry-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.crime-entry-list li {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.crime-entry-list li:hover {
+  background-color: #f0f0f0;
+}
+
+.delete-button {
+  background-color: #8B0000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #a01c1c;
+}

@@ -1,0 +1,100 @@
+
+
+.report-container {
+  height: 600px;
+  width: 600px;
+  background-image: url('./assets/reports.jpg');
+  background-size: cover;
+  border-radius: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  position:absolute;
+}
+
+.report-container::before {
+  width: 585px;
+  height: 585px;
+  border: 3px solid #fff;
+  content: '';
+  position:absolute;
+  border-radius: 85px;
+  box-sizing: border-box;
+}
+
+.welcome {
+  font-weight: bold; 
+  text-align: center; 
+  margin: 20px 0px; 
+}
+
+.left {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.left ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.left ul li {
+  margin-left: 10px;
+}
+
+.left ul li a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #0e0773;
+  border-radius: 5px;
+  padding: 10px 15px;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s;
+}
+
+.left ul li a:hover {
+  background-color: #898a8b;
+}
+
+.crime {
+  height: 500px;
+  width: 500px;
+  border-radius: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #6F8695;
+  margin: 20px 0;
+  align-self: flex-end; /* Aligns the container to the end of the flex container */
+}
+
+.crime::after {
+  width: 515px;
+  height: 515px;
+  border: 3px solid #110101;
+  content: '';
+  position: absolute;
+  border-radius: 85px;
+  box-sizing: border-box;
+}
+
+.crime-text {
+  position: absolute;
+  text-align:initial;
+  font-size: 24px; /* Adjust font size as needed */
+  color: #0e0773; /* Example text color */
+}
+
+t
+
+.container {
+  display: flex; /* Flex container */
+  justify-content: flex-end; /* Aligns child elements to the right */
+  align-items: center; /* Center vertically */
+  height: 100%; /* Full height of the parent */
+}

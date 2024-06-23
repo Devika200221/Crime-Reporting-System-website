@@ -1,0 +1,157 @@
+
+/* 
+.container {
+    padding: 20px;
+    text-align:center;
+} */
+
+
+
+
+
+/* .container {
+  width: 80%;
+  
+  max-width: 800px;
+  background-image: url('./assets/reports.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(22, 4, 87, 0.1);
+  color: #1c0563; 
+}
+
+.box {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+ */
+
+
+
+ /* .container {
+    display: flex;
+    width: 99%;
+    height: 80%;
+    max-width: 100%;
+    background-color: white;
+    padding: 20px;
+     border: solid #333; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #0e0773;
+    
+  } */
+
+  .container {
+  width: 100%;
+  max-width: 1800px;
+  height: 900px; 
+  background-image: url('./assets/backs.png'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #1c0563; 
+} 
+
+.box {
+  /* flex: 0 500 600px;  */
+  width: 1000px;
+  height: 900px; /* Fixed height for the box */
+  background-image: url('./assets/reports.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  border: #060000;
+  box-shadow: 0 0 10px hwb(300 6% 94% / 0.901);
+  color: #b30000;
+}
+
+/* .box h1{
+  box-shadow: 0 0 10px hwb(300 5% 95% / 0.901);
+  width: 500px;
+  align-items: center;
+  color: #420202;
+}
+
+.box p{
+  box-shadow: 0 0 10px hwb(0 33% 66% / 0.901);
+  width: 800px;
+  align-items:center;
+  color:#420202;
+}
+
+.box p{
+  box-shadow: 0 0 10px hwb(0 33% 66% / 0.901);
+} */
+
+
+.text-box {
+  flex: 1; /* Takes up the remaining space */
+  display: flex;
+  align-items: center;
+}
+
+.text-box p {
+  font-size: 45px;
+  margin: 0;
+  color: #060000;
+}
+
+
+.box h1, .box p {
+    font-weight: bold; /* Make the text bold inside the box */
+  }
+
+  .text-box p {
+    font-weight: bold; /* Make the text bold inside the box */
+  }
+
+
+
+  .left {
+    position:absolute;
+    bottom: 50px;
+    right: 20px;
+  }
+  
+  .left ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .left ul li {
+    margin-bottom: 10px;
+    
+  }
+  
+  .left ul li  {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000be;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s;
+  }
+  
+  .left ul li :hover {
+    background-color: #ddd;
+  }
+  

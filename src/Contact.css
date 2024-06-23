@@ -1,0 +1,94 @@
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(238, 138, 138, 0.1);
+  }
+  
+  
+  .container {
+    
+
+  width: 100%;
+  max-width: 1800px;
+  height: 800px; /* Set a height for the container */
+  background-image: url('./assets/backs.png'); /* Update the path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #1c0563; /* Ensure the text is visible against the background */
+}
+  .contact-info {
+    width: 30%;
+    padding-right: 20px;
+    border-right: 5px solid #ccc;
+
+  }
+  
+  .contact-form {
+    width: 70%;
+    padding-left: 20px;
+  }
+  
+  h2 {
+    margin-top: 0;
+    font-size: 45px;
+    color: rgb(0, 0, 57);
+    font-weight: 700 ;
+  }
+
+  p {
+    font-size: 25px;
+    color: #000000;
+    font-weight:bold;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold; /* Make the text bold inside the box */
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+
+  input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+
+  
+  input, textarea {
+    width: 92%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    
+    
+  }
+
+  
+  button[type="submit"] {
+    background-color: #8B0000;
+    color: #fff;
+    padding: 20px 70px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #a01c1c;
+  }

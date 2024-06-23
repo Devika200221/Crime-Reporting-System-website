@@ -1,0 +1,83 @@
+/* Styling for the container */
+.container {
+  display: flex;
+  justify-content: center; /* Center-aligns the login container */
+  align-items: center; /* Vertically center-aligns the login container */
+  /* height: 70vh;  */
+  background-color: #f7f7f7; /* Light background color */
+  
+}
+
+/* Styling for the login and registration forms */
+.login-container,
+.register-container {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #000707;
+  border-radius: 5px;
+  background-color: #fff; /* White background for the form */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for better aesthetics */
+}
+
+/* Heading styles */
+.login-container h2,
+.register-container h2 {
+  margin-bottom: 20px;
+  text-align: center; /* Center-aligns the heading */
+}
+
+/* Label styles */
+.login-container label,
+.register-container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Input field styles */
+.login-container input[type="email"],
+.login-container input[type="password"],
+.register-container input[type="text"],
+.register-container input[type="email"],
+.register-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Input field hover styles */
+.login-container input[type="email"]:hover,
+.login-container input[type="password"]:hover,
+.register-container input[type="text"]:hover,
+.register-container input[type="email"]:hover,
+.register-container input[type="password"]:hover {
+  border-color: #aaa;
+}
+
+/* Styling for the submit button */
+.login-container button[type="submit"],
+.register-container button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #8B0000; /* Dark red background color */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Submit button hover styles */
+.login-container button[type="submit"]:hover,
+.register-container button[type="submit"]:hover {
+  background-color: #a01c1c; /* Darker shade for hover effect */
+}
+
+/* Error message styles */
+.error-message {
+  color: red; /* Red error text color */
+  margin-top: 5px;
+  font-size: 15px;
+}

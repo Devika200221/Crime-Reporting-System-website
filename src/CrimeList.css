@@ -1,0 +1,89 @@
+/* CrimeEntryDetail.css
+
+.crime-entry-detail {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.crime-entry-detail h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.crime-entry-detail p {
+  margin-bottom: 10px;
+}
+
+.close-button {
+  display: block;
+  margin-left: auto;
+  margin-bottom: 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.close-button:hover {
+  background-color: #c82333;
+} */
+
+
+
+
+
+
+/* CrimeList.css */
+
+.crime-entry-detail {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.crime-entry-detail h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.crime-entry-detail p {
+  margin-bottom: 10px;
+}
+
+.close-button {
+  display: block;
+  margin-left: auto;
+  margin-bottom: 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.close-button:hover {
+  background-color: #c82333;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}

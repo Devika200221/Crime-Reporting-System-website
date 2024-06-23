@@ -1,0 +1,30 @@
+.footer {
+    border-top: 2px solid #1b1717;
+    background-color: #F5F5F5;
+    color: black;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .footer h1 {
+    font-size: 1.9em;
+    margin-bottom: 20px;
+  }
+
+  .footer h2 {
+    font-size: 1.7em;
+    margin-bottom: 20px;
+  }
+  
+  
+  .footer .img1 {
+    width: 60px; /* Adjust width as needed */
+    height: 60px; /* Adjust height as needed */
+    margin: 0 10px; /* Adjust margin as needed */
+  }
+  
+  .footer p {
+    font-size: 22px;
+    line-height: 1.5;
+  }
+  

@@ -1,0 +1,87 @@
+/* Styling for the container */
+.container {
+    display: flex;
+    justify-content: center; /* Center-aligns the admin container */
+    align-items: center; /* Vertically center-aligns the admin container */
+    height: 100vh; /* Full viewport height */
+    background-color: #f7f7f7; /* Light background color */
+  }
+  
+  /* Styling for the admin form */
+  .admin-container {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #000707;
+    border-radius: 5px;
+    background-color: #fff; /* White background for the form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for better aesthetics */
+  }
+  
+  /* Heading styles */
+  .admin-container h2 {
+    margin-bottom: 20px;
+    text-align: center; /* Center-aligns the heading */
+  }
+  
+  /* Label styles */
+  .admin-container label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Input field styles */
+  .admin-container input[type="email"],
+  .admin-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Input field hover styles */
+  .admin-container input[type="email"]:hover,
+  .admin-container input[type="password"]:hover {
+    border-color: #aaa;
+  }
+  
+  /* Styling for the submit button */
+  .admin-container button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #8B0000; /* Dark red background color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Submit button hover styles */
+  .admin-container button[type="submit"]:hover {
+    background-color: #a01c1c; /* Darker shade for hover effect */
+  }
+  
+  /* Error message styles */
+  .error-message {
+    color: red; /* Red error text color */
+    margin-top: 5px;
+    font-size: 15px;
+  }
+  
+  /* Link styles */
+  .admin-container p {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .admin-container p a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none;
+  }
+  
+  .admin-container p a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  

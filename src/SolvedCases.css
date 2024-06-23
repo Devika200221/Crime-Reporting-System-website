@@ -1,0 +1,45 @@
+.solved-cases-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .solved-cases-container h2 {
+    margin-top: 0;
+  }
+  
+  .crime-entry {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .crime-entry p {
+    margin-bottom: 10px;
+  }
+  
+  .crime-entry strong {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .solved-date,
+  .solution-summary {
+    margin-top: 20px;
+  }
+  
+  .solved-date {
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+  }
+  
+  .solution-summary {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Add more styles as needed */
